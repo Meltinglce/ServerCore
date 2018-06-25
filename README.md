@@ -8,3 +8,7 @@ A: This makes your server Unique and players can alot of fun with cosmetics and 
 Can i use it on Factions or Skyblock?
 A: I made this for MiniGames Server. But it wont suit Factions or SKyblock. So its upto you.
 I will try to make this plugin upto date. Any Problem just DM me on my Discord Server Netstarv2#8017. Note this free plugin protected by GNU License. You can modify it but dont resell it. You will face serious Issues.
+
+Poggit
+[![](https://poggit.pmmp.io/shield.state/Core)](https://poggit.pmmp.io/p/Core)
+<a href="https://poggit.pmmp.io/p/Core"><img src="https://poggit.pmmp.io/shield.state/Core"></a>
