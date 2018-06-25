@@ -1,0 +1,28 @@
+---
+#################################
+# Configuration for Core v1.0.0 #
+# Plugin Made by Netstarv2 #
+#################################
+# Commands:
+
+info-ranks-cmd: "Vip: $1"
+info-server-cmd: "Welcome to our server! Shop: shop.servername.net"
+
+# Item names (for the teleport/warp items):
+
+Game-1-Name: Game1
+Game-2-Name: Game2
+Game-3-Name: Game3
+
+# Positions (for the teleport/warp items):
+
+Game-1-X: 0
+Game-1-Y: 0
+Game-1-Z: 0
+Game-2-X: 0
+Game-2-Y: 0
+Game-2-Z: 0
+Game-3-X: 0
+Game-3-Y: 0
+Game-3-Z: 0
+...
