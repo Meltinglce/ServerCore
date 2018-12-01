@@ -80,21 +80,22 @@ class Main extends PluginBase implements Listener {
 		$player->setGamemode(2);
 		$player->teleport(new Vector3($x, $y, $z));
 		$this->mainItems($player);
-		if($player->isOP()){
 			$event->setJoinMessage(C::GREEN.$name.C::AQUA." has joined the game!");
-		} else {
-			$event->setJoinMessage("");
 		}
-	}
-
+	
 	public function onQuit(PlayerQuitEvent $event){
-		if($player->isOP()){
-			$event->setQuitMessage(C::GREEN.$name.C::AQUA." has left the game!");
-		} else {
-			$event->setQuitMessage("");
+		$player = $event->getPlayer();
+		$name = $player->getName();
+		$ds = $this->getServer()->getDefaultLevel()->getSafeSpawn();
+		$x = $ds->getX() + 0.5;
+		$y = $ds->getY() + 0.5;
+		$z = $ds->getZ() + 0.5;
+		$player->setGamemode(2);
+		$player->teleport(new Vector3($x, $y, $z));
+		$this->mainItems($player);
+		$event->setQuitMessage(C::GREEN.$name.C::AQUA." has left the game!");
 		}
-	}
-
+	
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 
 		$cfg = new Config($this->getDataFolder() . "config.yml", Config::YAML);
